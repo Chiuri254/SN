@@ -6,6 +6,8 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 import Slide from './components/layout/Slide';
 import Navbar from './components/layout/Navbar';
+import Service from './components/layout/Service';
+import Footer from './components/layout/Footer'
 // import Login from './components/auth/Login';
 // import Signup from './components/auth/Signup';
 
@@ -18,6 +20,8 @@ function App() {
       <Fragment>
         <Navbar/>
         <Slide/>
+        <Service/>
+        <Footer/>
         <div className="container">
         <Switch>
           {/* <Route exact path="/signup" component={Signup} />

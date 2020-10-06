@@ -173,6 +173,7 @@ button:hover {
   display: block;
 }
 
+
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
     height: calc(100vh - 75px);
